@@ -1,1 +1,1 @@
-<x-layout.base>
+<x.components-layout.base>
