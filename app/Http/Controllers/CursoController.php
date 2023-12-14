@@ -14,12 +14,10 @@ class CursoController extends Controller
      */
     public function index()
     {
-        $cursos = Curso::query()
-        ->get();
         $curso = Curso::query()
         ->first();
 
-        return view('pages.home', compact('cursos', 'curso'));
+        return view('pages.home', compact('curso'));
     }
 
     /**
